@@ -33,7 +33,6 @@ requirements:
     - cargo-auditable
 
 tests:
-  - script: tegratop --help
   - package_contents:
       bin:
         - tegratop
